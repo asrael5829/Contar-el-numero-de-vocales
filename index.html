@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vocales ="aeiouAEIOU";
+        let cadena ="Israel";
+        let c =0;
+        for(let i of cadena){
+            if(vocales.indexOf(i)!= -1){
+                c++;
+            }
+        }
+        document.write(cadena + "<br>");
+        document.write("La cadena tiene " +c+ " vocales");
+    </script>
+
+</body>
+</html>
